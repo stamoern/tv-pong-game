@@ -1,0 +1,13 @@
+{
+  "name": "tv-pong-game",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/withw/tv-pong-game.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/withw/tv-pong-game/issues"
+  },
+  "homepage": "https://github.com/withw/tv-pong-game#readme"
+}
