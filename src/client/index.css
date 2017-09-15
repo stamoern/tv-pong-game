@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+    margin: 10px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+:global #status {
+    font-size: 2em;
+    text-align: center;
+    padding: 10px;
+    border: solid 2px gray;
+    border-radius: 5px;
+}
+
+:global #buttons {
+    display: flex;
+    flex-direction: row;
+    height: 60%;
+}
+
+:global .button-move {
+    flex: 1;
+    font-size: 2em;
+}
