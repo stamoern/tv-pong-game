@@ -5,9 +5,28 @@
     "type": "git",
     "url": "git+https://github.com/withw/tv-pong-game.git"
   },
+  "scripts": {
+    "start": "http-server ./dist",
+    "dev": "webpack -w",
+    "build": "webpack -p"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/withw/tv-pong-game/issues"
   },
-  "homepage": "https://github.com/withw/tv-pong-game#readme"
+  "homepage": "https://github.com/withw/tv-pong-game#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.16",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "html-webpack-plugin": "^2.30.1",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.5.6"
+  },
+  "dependencies": {
+    "http-server": "^0.10.0"
+  }
 }
