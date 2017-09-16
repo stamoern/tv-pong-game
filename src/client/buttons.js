@@ -2,7 +2,7 @@
 import Channel from 'chnl';
 import throttle from 'lodash.throttle';
 
-export default class ButtonsSensor {
+export default class Buttons {
     constructor() {
         this.onAction = new Channel();
         this._bindEl('button-move-left', 'left');

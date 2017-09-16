@@ -32,6 +32,7 @@
     "gyronorm": "^2.0.6",
     "http-server": "^0.10.0",
     "lodash.throttle": "^4.1.1",
+    "websocket": "^1.0.24",
     "websocket-as-promised": "^0.4.0"
   }
 }
